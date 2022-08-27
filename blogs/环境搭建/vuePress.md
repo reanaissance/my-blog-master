@@ -1,3 +1,12 @@
+---
+title: vuePress搭建部署
+date: 2022-08-28
+tags:
+ - 搭建部署
+categories:
+ -  搭建部署
+---
+
 # vuePress搭建部署
 
 #### 安装theme-cli命令

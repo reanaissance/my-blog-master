@@ -27,27 +27,27 @@ module.exports = {
         "icon": "reco-home"
       },
       {
+        "text": "未定",
+        "icon": "reco-message",
+        "items": [
+          {
+            "text": "未定",
+            "link": "/"
+          }
+        ]
+      },
+      {
         "text": "TimeLine",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "环境搭建",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "build",
-            "link": "/docs/build/"
-          }
-        ]
-      },
-      {
-        "text": "Contact",
+        "text": "联系",
         "icon": "reco-message",
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/YearsAreEfas",
             "icon": "reco-github"
           }
         ]
@@ -56,25 +56,26 @@ module.exports = {
     "sidebar": {
       "/docs/build/": [
         "",
-        "vuePress"
+        "vuePress",
+        "GitSSHKey配置"
       ]
     },
     "type": "blog",
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "Category"
+        "text": "每周笔记"
       },
       "tag": {
         "location": 3,
-        "text": "Tag"
+        "text": "标签"
       }
     },
     "friendLink": [
       {
-        "title": "午后南杂",
+        "title": "山远风起",
         "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
+        "email": "15135921427@163.com",
         "link": "https://www.recoluan.com"
       },
       {
