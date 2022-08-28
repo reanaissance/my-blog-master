@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 山
-tagline: 据我所知 我一无所知
+heroText: Years Are Safe
+tagline: As far as I know, I don't know anything
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
