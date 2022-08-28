@@ -1,7 +1,8 @@
 module.exports = {
   "title": "山远风起",
   "description": "blog start",
-  "dest": "public",
+  "dest": "build",
+  "port":8443,
   "head": [
     [
       "link",
@@ -22,22 +23,22 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "Home",
+        "text": "主页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "未定",
+        "text": "没想好",
         "icon": "reco-message",
         "items": [
           {
-            "text": "未定",
+            "text": "没想好",
             "link": "/"
           }
         ]
       },
       {
-        "text": "TimeLine",
+        "text": "时光史",
         "link": "/timeline/",
         "icon": "reco-date"
       },
@@ -64,7 +65,7 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "每周笔记"
+        "text": "随便记记"
       },
       "tag": {
         "location": 3,
@@ -76,13 +77,7 @@ module.exports = {
         "title": "山远风起",
         "desc": "Enjoy when you can, and endure when you must.",
         "email": "15135921427@163.com",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
+        "link": "http://39.107.121.101/"
       }
     ],
     "logo": "/logo.png",
